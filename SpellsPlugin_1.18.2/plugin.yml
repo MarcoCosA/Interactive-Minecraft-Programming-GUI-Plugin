@@ -1,0 +1,67 @@
+name: CustomSpells
+main: me.BerylliumOranges.main.SpellPluginMain
+version: 1.3
+api-version: 1.18
+commands:
+   verbose:
+     description: Toggles verbose mode
+     aliases:
+     permission:
+     usage: /<command>
+   spellstats:
+     description: Shows your stats
+     aliases: s
+     permission:
+     usage: /<command>
+   dummy:
+     description: Resets players mana
+     aliases:
+     permission:
+     usage: /<command> <player name> 
+   resetmana:
+     description: Resets players mana
+     aliases:
+     permission:
+     usage: /<command> <player name>
+   getspellitems:
+     description: Opens an inventory with items from this plugin
+     aliases:
+     permission:
+     usage: /<command> <page>
+   prefabspells:
+     description: Opens an inventory with all the spell prefabs
+     aliases:
+     permission:
+     usage: /<command>
+   prefabentities:
+     description: Opens an inventory with all the enemy prefabs
+     aliases:
+     permission:
+     usage: /<command>
+   manadisplay:
+     description: changes mana display.
+     aliases:
+     permission:
+     usage: /<command>
+   searchseg:
+     description: search for a particular segment/sound.
+     aliases:
+     permission:
+     usage: /<command> <sound name>
+   writebuilding:
+     description: write a building.
+     aliases:
+     permission:
+     usage: /<command> <sound name>
+   loadbuilding:
+     description: write a building.
+     aliases:
+     permission:
+     usage: /<command> <sound name>
+   readprefab:
+     description: testing only.
+     aliases:
+     permission:
+     usage: /<command>
+   
+     
